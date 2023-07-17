@@ -1,0 +1,21 @@
+TABLAS: 
+ 
+Usuarios (#USUARIO, nombre, apellido, clave_de_acceso, teléfono, calle-nro-piso-depto)  
+ 
+Vínculos (#FECHA_Y_HORA, descripción, tipo_de_vínculo, usuario_solicitante, usuario_receptor)  
+ 
+Temáticas (#NOMBRE, descripción)  
+ 
+Imágenes (#TÍTULO, fecha_y_hora, nombre_del_archivo, palabras_claves, id_tematica)  
+ 
+Descargar (#ID_DESCARGAR, usuario, título, fecha_y_hora)  
+ 
+Compartir (#ID_COMPARTIR, usuario, título, fecha_y_hora)  
+ 
+Comentarios (#FECHA_Y_HORA_DE_CREACIÓN, texto, autor)  
+ 
+Comentario_Imagen (ID_COMENTARIO_IMAGEN, fecha_y_hora_de_creación, id_comentarios)  
+ 
+Correos_electrónicos (CORREOS_ELECTRÓNICOS)  
+ 
+Usuarios_correos_electrónicos (ID_USUARIOS_CORREOS_ELECTRÓNICOS, usuario, correos_electrónicos)  
